@@ -1,0 +1,47 @@
+# Generated when running scripts
+**/.ipynb_checkpoints/**
+**/__pycache__/**
+**/htmlcovwe nee/**
+**/.coverage
+dist/
+build/
+*.egg-info
+.vscode/
+wandb/
+.DS_Store
+
+# Experiments/Diverse
+miscellaneous/
+misc/
+experiments/*
+pre-process-data/*
+experiments_iswc/*
+config_test.json
+experiments-other-vm/*
+
+
+# Settings
+settings/private.py
+
+# Datasets
+eventkg/
+*.parquet
+*.nq
+data-test/*
+data/*
+dbpedia-snapshot-2021-09/*
+wikidata-2021-03-05/*
+yago-2020-02-24/*
+app/data/*
+!app/data/.gitkeep
+domain-range-pred/
+!domain-range-pred/.gitkeep
+
+ingoing.csv
+outgoing.csv
+data/*
+experiments_eswc/*
+experiments_iswc/*
+experiments_search/*
+experiments-22-iswc-nautilod/*
+data_ng_building/
